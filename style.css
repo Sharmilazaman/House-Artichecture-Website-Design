@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+/* navbar */
+.nav-link{
+    color: #FF6918;
+    text-transform: uppercase;
+    text-shadow: 1px #682b0a;
+}
+
+.nav-link:hover {
+    color: #f0996a;
+    text-transform: uppercase;
+    text-shadow: 1px #682b0a;
+}
+
+
+/* slider */
+.slide{
+    background-image: url(img/slider.jpg);
+    height: 100vh;
+    background-position: 50% 50%;
+    object-fit: cover;
+    display: block;
+}
+.slide h1{
+    font-size: 4rem;
+    color: #FF6918;
+    font-weight: 900;
+    font-family: Roboto, Arial, "sans-serif";
+}
+.slide p{
+    font-size: ;
+    color: rgb(92, 91, 91);
+    font-weight: bold;
+}
+
+.slide span {
+    background-color: #F74207;
+    color: white;     
+}
+
+.slide span:hover{
+    background-color: #f55d2a;
+    color: white;    
+}
+.slide-text{
+    vertical-align: middle;
+}
+
+
+/* section 2: grid */
+.sec2{
+    color: white;
+}
+.sec2 h2{
+    font-family: Oswald, sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+}
+.sec2 h4{
+    font-family: Oswald, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.fa-solid{
+    font-size: ;
+}
+
+.col1{
+    background: #FF6918;
+}
+.col2{
+    background: #F43702;
+}
+.col3{
+    background: #292D33;
+}
+.col4{
+    background: #555C66;
+}
+
+
+/* sec3 : sustainable cons */
+
+.sec3 h2{
+    font-family: Oswald, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #FF6918;
+}
+.sec3 p{
+    color: #292D33;
+}
+.sec3 .btn{
+    background-color: #f55d2a;
+    border: none;
+    border-radius: 0%;
+    font-weight: 600;   
+}
+
+.sec3 .btn:hover {
+    background-color: #eb6d43;
+    border: none;
+    border-radius: 0%;
+    font-weight: 600;   
+}
+
+
+/* sec4 : Construction Services */
+.sec4 img{
+    width: 100%;
+}
+
+.sec4 h2{
+    font-family: Oswald, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #FF6918;
+}
+
+/* sec5 */
+.sec5 h2{
+    font-family: Oswald, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #FF6918;
+}
+
+.sec5 .btn{
+    background-color: #f55d2a;
+    border: none;
+    border-radius: 0%;
+    font-weight: 600;   
+}
+
+.sec5 .btn:hover {
+    background-color: #eb6d43;
+    border: none;
+    border-radius: 0%;
+    font-weight: 600;   
+}
+
+/* sec6 */
+.sec6{
+    background-image: url(img/stick.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+/* sec7 */
+.sec7 h2{
+    font-family: Oswald, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: #FF6918;
+}
+
+.sec7 .btn{
+    background-color: #f55d2a;
+    border: none;
+    border-radius: 0%;
+    font-weight: 600;   
+}
+
+.sec7 .btn:hover {
+    background-color: #eb6d43;
+    border: none;
+    border-radius: 0%;
+    font-weight: 600;   
+}
+
+
+/* sec8 */
+.sec8{
+    background: #F5F7FA;
+}
+
+.sec8 h2{
+    font-family: Oswald, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    color: #FF6918;
+}
+
+.sec8 .btn{
+    background-color: #f55d2a;
+    border: none;
+    border-radius: 0%;
+    font-weight: 600;   
+}
+
+.sec8 .btn:hover {
+    background-color: #eb6d43;
+    border: none;
+    border-radius: 0%;
+    font-weight: 600;   
+}
+.sec8 .form-control{
+    border-color: #f55d2a;
+    border-radius: 0%;    
+}
+
+
+hr.line{
+    color: #f55d2a;
+    width: 80px;
+    border-top: 5px solid #FF6918;
+    opacity: 100;
+}
+hr.line1{
+    color: #f55d2a;
+    width: 80px;
+    border-top: 5px solid #FF6918;
+    align-self: center;
+    opacity: 100;
+}
+
+
+
+
+
+
+
+
+/*FOOOTER*/
+.footer{
+    background-color: rgb(38, 37, 43);
+    padding: 50px;
+}
+
+.footer h5 {
+    color: white;
+}
+.text{
+    color: rgb(83, 72, 72);
+}
+
+.footer ul li{
+    color: white;
+    list-style: none;
+}
+
+.footer ul li i{
+    margin: 5px;
+}
+
+.footer i{
+    margin-left: 15px;
+}
+
+
+
+
+
